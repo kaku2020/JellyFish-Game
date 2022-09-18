@@ -1,0 +1,44 @@
+.home{
+    /* display: flex; */
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    /* max-width:1500px; */
+}
+
+
+
+.home__form{
+    display: flex;
+    flex-direction: column;
+    max-height: 1000px;
+    z-index: 1;
+    padding-top: -10px;
+}
+
+.home__form__input{
+    min-height: 30px;
+    font-weight:800;
+    z-index: 1;
+    width: 70%;
+   
+}
+
+.home__ans{
+    display:flex;
+}
+
+.home__form__button{
+    min-height: 30px;
+    width:100%;
+    font-weight:800;
+    z-index: 1;
+}
+
+.home__form__text
+{
+    z-index: 1;
+    width: 100%;
+    font-weight:800;
+    background-color: aliceblue;
+}
